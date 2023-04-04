@@ -7,14 +7,6 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
-
-@property (strong, nonatomic) UITableView *myTableView;
-
-@end
-
-
-
 @implementation ViewController
 
 - (void)viewDidLoad {

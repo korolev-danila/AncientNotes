@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
+@interface ViewController : UINavigationController <UITableViewDelegate, UITableViewDataSource>
 
-//@property (strong, nonatomic) IBOutlet UITableView *myTableView; <UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) UITableView *myTableView;
 
 @end

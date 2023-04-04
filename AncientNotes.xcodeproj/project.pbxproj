@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830290A029DC9FE0002F3900 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302909F29DC9FE0002F3900 /* DetailViewController.m */; };
 		83131AA729D5DD4B00220259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83131AA629D5DD4B00220259 /* AppDelegate.m */; };
 		83131AAA29D5DD4B00220259 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83131AA929D5DD4B00220259 /* SceneDelegate.m */; };
 		83131AAD29D5DD4B00220259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83131AAC29D5DD4B00220259 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8302909E29DC9FE0002F3900 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8302909F29DC9FE0002F3900 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		83131AA229D5DD4B00220259 /* AncientNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AncientNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83131AA529D5DD4B00220259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83131AA629D5DD4B00220259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 			children = (
 				83131AAB29D5DD4B00220259 /* ViewController.h */,
 				83131AAC29D5DD4B00220259 /* ViewController.m */,
+				8302909E29DC9FE0002F3900 /* DetailViewController.h */,
+				8302909F29DC9FE0002F3900 /* DetailViewController.m */,
 			);
 			path = Controlller;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				83131AAD29D5DD4B00220259 /* ViewController.m in Sources */,
 				83131AA729D5DD4B00220259 /* AppDelegate.m in Sources */,
 				83131AAA29D5DD4B00220259 /* SceneDelegate.m in Sources */,
+				830290A029DC9FE0002F3900 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
